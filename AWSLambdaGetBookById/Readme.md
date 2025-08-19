@@ -47,3 +47,11 @@ Deploy function to AWS Lambda
     cd "AWSLambdaGetBookById/src/AWSLambdaGetBookById"
     dotnet lambda deploy-function
 ```
+Enviar por query parametros el id
+```
+{
+  "pathParameters": {
+    "id": "e7dedc79-eb91-46dd-a88e-eabd0f312ade"
+  }
+}
+```
